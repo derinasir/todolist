@@ -30,10 +30,10 @@ function addTask() {
       <div class='task'>
         <p>${P.textContent}</p>
         <button class='completeTask' title='check' onclick='completeTask(this)' >
-          ✅
+          <span class='emojis'>✅</span>
         </button>
         <button class='deleteTask' title='delete' onclick='deleteTask(this);' >
-          ❌
+          <span class='emojis'>❌</span>
         </button>
       </div>
     </li>`

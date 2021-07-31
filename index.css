@@ -149,4 +149,22 @@ li {
     display: grid;
     grid-template-columns: 95% 5%;
   }
+
+  .task {
+    font-size: 16px;
+    width: 70vw;
+    margin-right: 8vw;
+  }
+
+  button.deleteTask {
+    padding: 0;
+  }
+
+  button.completeTask {
+    padding: 0;
+  }
+
+  .emojis {
+    font-size: 12px;
+  }
 }

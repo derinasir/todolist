@@ -1,0 +1,140 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: x-large;
+  background-color: gray;
+  font-style: none;
+  color: white;
+}
+
+button {
+  border-style: solid;
+  border-radius: 15px;
+  font-size: 1.5rem;
+  padding: 10px 20px;
+  transition: 0.2s;
+}
+
+button:hover {
+  background-color: #6e6e6e;
+}
+
+button:focus {
+  outline: none;
+  border-color: blue;
+  background-color: #6e6e6e;
+}
+
+input {
+  border-color: aqua;
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 15px;
+  padding: 0 10px;
+  height: 36px;
+  font-size: 18px;
+}
+
+input:focus {
+  outline-style: none;
+  border-color: blue;
+}
+
+.nameForm {
+  display: grid;
+  margin: 10vh 0;
+  justify-content: center;
+  row-gap: 3vh;
+  grid-template-rows: repeat(auto, 3);
+}
+
+.naming {
+  display: flex;
+  column-gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20vh;
+}
+
+.changeNameButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.addTask {
+  margin: 0 25vw;
+  display: grid;
+  grid-template-columns: 95% 5%;
+}
+
+#addTaskInput {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-right-style: none;
+}
+
+#addTaskButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-color: aqua;
+  border-width: 3px;
+  border-left-style: none;
+  padding: 0 20px;
+  font-size: 80%;
+}
+
+#addTaskButton:focus {
+  border-color: blue;
+}
+
+#tasks {
+  display: grid;
+  row-gap: 10px;
+  justify-content: center;
+}
+
+li {
+  list-style: none;
+}
+
+.task {
+  display: grid;
+  grid-template-columns: auto 40px 40px;
+  column-gap: 5px;
+
+  align-items: center;
+
+  border: solid;
+  border-radius: 25px;
+  border-color: darkslategray;
+  background-color: darkslategray;
+  width: 40vw;
+  padding: 0 15px;
+}
+
+.deleteTask {
+  display: flex;
+  margin-left: auto;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+  padding: none;
+  border: none;
+  border-radius: 10px;
+}
+
+.completeTask {
+  display: flex;
+  margin-left: auto;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+  padding: none;
+  border: none;
+  border-radius: 10px;
+}

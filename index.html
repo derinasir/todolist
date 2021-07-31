@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./index.css" />
+
+    <title>Todo List</title>
+  </head>
+  <body>
+    <div id="nameField">
+      <div class="nameForm">
+        <label for="userInput">Enter your name</label>
+        <input id="userInput" type="text" />
+        <button title="login" onclick="getName();">🆗</button>
+      </div>
+    </div>
+    <div id="todos">
+      <div class="naming">
+        <h1 id="listOf">'s List</h1>
+        <button class="changeNameButton" onclick="changeName();">✍</button>
+      </div>
+      <div id="addTask" class="addTask">
+        <input id="addTaskInput" type="text" />
+        <button title="add" id="addTaskButton" onclick="addTask();">➕</button>
+      </div>
+      <ul id="tasks"></ul>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>

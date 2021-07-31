@@ -59,6 +59,7 @@ input:focus {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 4px 5px;
 }
 
 .addTask {
@@ -137,4 +138,15 @@ li {
   padding: none;
   border: none;
   border-radius: 10px;
+}
+
+@media screen and (max-width: 992px) {
+  body {
+    font-size: medium;
+  }
+  .addTask {
+    margin: 0 15vw 0 10vw;
+    display: grid;
+    grid-template-columns: 95% 5%;
+  }
 }
